@@ -1,0 +1,56 @@
+.study-of-ancient-runes {
+  margin: auto;
+}
+
+.ancient-runes {
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+H3 {
+  font-size: 550%;
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 100px;
+  margin: 40px 80px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 100px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+.heart:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart:after {
+  left: 50px;
+  top: 0;
+}
+
+.btn {
+  border-radius: 2px;
+  color: blue;
+}
